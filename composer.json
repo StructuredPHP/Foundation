@@ -1,5 +1,6 @@
 {
-    "name": "structured-php/foundation",
+    "name": "structuredphp/foundation",
+    "type": "library"
     "description": "This is a foundation framework for PHP object oriented programming, it provides a numbers of tools that supports object oriented concepts such as enum and collections",
     "license": "MIT",
     "authors": [
