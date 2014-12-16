@@ -1,7 +1,7 @@
 <?php
 namespace StructuredPHP\Common\Interfaces;
 
-use StructuredPHP\Common\Util\Collection\Interfaces\ISorter;
+use StructuredPHP\Common\Util\Interfaces\ISorter;
 
 /**
  * Define if the object is sort able

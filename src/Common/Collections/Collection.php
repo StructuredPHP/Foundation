@@ -2,9 +2,9 @@
 namespace StructuredPHP\Common\Collections;
 
 use StructuredPHP\Common\Interfaces\Filterable;
-use StructuredPHP\Common\Util\Collection\Interfaces\IFilter;
+use StructuredPHP\Common\Util\Interfaces\IFilter;
 use StructuredPHP\Common\Interfaces\Sortable;
-use StructuredPHP\Common\Util\Collection\Interfaces\ISorter;
+use StructuredPHP\Common\Util\Interfaces\ISorter;
 use StructuredPHP\Common\Collections\Interfaces\ICollection;
 use StructuredPHP\Common\Type\AbstractIterator;
 
@@ -32,6 +32,15 @@ class Collection extends AbstractIterator implements ICollection, Filterable, So
 	public function remove($index) {
 		unset($this->data[$index]);
 		return $this;
+	}
+	
+	/**
+	 * 
+	 * @param unknown $index
+	 * @return multitype:
+	 */
+	public function get($index) {
+		return $this->data[$index];
 	}
 	
 	/**

@@ -1,8 +1,8 @@
 <?php
 namespace StructuredPHP\Tests\Common\Type;
 
-
 use StructuredPHP\Tests\Objects\SimpleObject;
+
 class SimpleObjectTest extends \PHPUnit_Framework_TestCase{
 
 	protected $test_subject;

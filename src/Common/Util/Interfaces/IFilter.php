@@ -1,5 +1,5 @@
 <?php
-namespace StructuredPHP\Common\Util\Collection\Interfaces;
+namespace StructuredPHP\Common\Util\Interfaces;
 
 /**
  * Interface Filter
