@@ -1,8 +1,6 @@
 <?php
 namespace StructuredPHP\Common\Util\Collection\Interfaces;
 
-use StructuredPHP\Common\Collections\Interfaces\ICollection;
-
 /**
  * Sorter Interface
  * 
@@ -12,5 +10,7 @@ use StructuredPHP\Common\Collections\Interfaces\ICollection;
  *
  */
 interface ISorter {
-	public function doSort(ICollection $collection);
+	
+	public function doSort($collection);
+	
 }

@@ -1,8 +1,6 @@
 <?php
 namespace StructuredPHP\Common\Util\Collection\Interfaces;
 
-use StructuredPHP\Common\Collections\Interfaces\ICollection;
-
 /**
  * Interface Filter
  * 
@@ -18,5 +16,5 @@ interface IFilter {
 	 * @param ICollection $collection
 	 * @return array
 	 */
-	public function doFilter(ICollection $collection);
+	public function doFilter($collection);
 }
