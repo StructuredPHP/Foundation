@@ -27,6 +27,6 @@ abstract class Enum {
 	 */
 	public static function valid($value)
 	{
-		return in_array($value, $this->getConstants());
+		return in_array($value, self::toArray());
 	}
 }

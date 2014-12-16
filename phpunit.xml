@@ -13,7 +13,7 @@
          
 		<testsuites>
 		  <testsuite name="StructuredPHP Foundation Suite">
-		    <directory>src/Test</directory>
+		    <directory>src/Tests</directory>
 		  </testsuite>
 		</testsuites>       
 		
