@@ -7,7 +7,7 @@ namespace StructuredPHP\Common\Type;
  * @author haihao
  *
  */
-abstract class AbstractIterator extends Object implements \Iterator {
+abstract class Iteratored extends Object implements \Iterator {
 	
 	private $position = 0;
 	

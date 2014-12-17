@@ -6,7 +6,7 @@ use StructuredPHP\Common\Util\Interfaces\IFilter;
 use StructuredPHP\Common\Interfaces\Sortable;
 use StructuredPHP\Common\Util\Interfaces\ISorter;
 use StructuredPHP\Common\Collections\Interfaces\ICollection;
-use StructuredPHP\Common\Type\AbstractIterator;
+use StructuredPHP\Common\Type\Iteratored;
 
 /**
  * Collection
@@ -14,7 +14,7 @@ use StructuredPHP\Common\Type\AbstractIterator;
  * @author haihao
  *
  */
-class Collection extends AbstractIterator implements ICollection, Filterable, Sortable {
+class Collection extends Iteratored implements ICollection, Filterable, Sortable {
 	
 	/**
 	 * (non-PHPdoc)
