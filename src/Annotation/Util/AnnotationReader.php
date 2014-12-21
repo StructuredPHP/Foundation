@@ -56,4 +56,12 @@ class AnnotationReader extends Object {
 		}
 		return $result;
 	}
+	
+	/**
+	 * 
+	 * @return \Doctrine\Common\Annotations\AnnotationReader
+	 */
+	public function getDoctrineReader() {
+		return $this->reader;
+	}
 }
