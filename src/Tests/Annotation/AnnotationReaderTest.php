@@ -1,7 +1,7 @@
 <?php
 namespace StructuredPHP\Tests\Annotation;
 
-use StructuredPHP\Annotation\Util\AnnotationReader;
+use StructuredPHP\Annotations\Util\AnnotationReader;
 use StructuredPHP\Tests\Objects\SimpleObject;
 use StructuredPHP\Tests\Objects\Annotation\SimpleAnnotation;
 

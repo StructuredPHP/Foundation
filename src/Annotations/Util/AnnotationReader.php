@@ -1,5 +1,5 @@
 <?php
-namespace StructuredPHP\Annotation\Util;
+namespace StructuredPHP\Annotations\Util;
 
 use StructuredPHP\Common\Type\Object;
 use Doctrine\Common\Annotations\AnnotationReader as DoctrineReader;
