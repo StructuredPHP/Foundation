@@ -21,8 +21,8 @@ abstract class Object {
 	 * @param string $include_private
 	 * @return array
 	 */
-	public function toArray($exclude = array(), $referesh = false) {
-		if ( empty($this->data) || $referesh ) {
+	public function toArray($exclude = array(), $refresh = false) {
+		if ( empty($this->data) || $refresh ) {
 			$reflect = new \ReflectionObject($this);
 			$properties = $reflect->getProperties();
 			$data = array();
